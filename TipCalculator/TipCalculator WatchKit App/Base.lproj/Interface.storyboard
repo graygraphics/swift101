@@ -13,7 +13,7 @@
                         <group width="1" alignment="left" id="w6r-dJ-gYZ">
                             <items>
                                 <label width="1" height="30" alignment="left" text="$0.00" textAlignment="right" id="I3J-qf-xZg">
-                                    <fontDescription key="font" type="system" pointSize="20"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
                                     <variation key="device=watch38mm" height="22"/>
                                 </label>
                             </items>
