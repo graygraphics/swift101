@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="w6r-dJ-gYZ">
+                            <items>
+                                <label width="1" height="30" alignment="left" text="$0.00" textAlignment="right" id="I3J-qf-xZg">
+                                    <fontDescription key="font" type="system" pointSize="20"/>
+                                    <variation key="device=watch38mm" height="22"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="ZVK-ZQ-r80">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="7" id="UCW-Oa-g4n">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="8" id="kGp-WB-Rdf">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="9" id="KDe-02-w26">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="Caz-Id-HSR">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="4" id="bW0-K5-iqR">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="5" id="eCQ-M8-Ubw">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="6" id="j8s-Xo-3X1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="ft5-q8-ODr">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="1" id="Mda-06-YxX">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="2" id="xNH-24-Xne">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="3" id="Fen-p5-4AW">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="c2z-MU-qCf">
+                            <items>
+                                <button width="0.66600000000000004" height="1" alignment="left" title="0" id="tJw-13-HdJ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="C" id="fc2-gw-aVO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="WuB-0A-zNt">
+                            <items>
+                                <imageView alignment="center" image="arrowDown" id="5k2-lp-hiV">
+                                    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                            </items>
+                        </group>
+                        <group width="100" height="30" alignment="left" id="SwD-S7-ZvE">
+                            <items>
+                                <label width="100" alignment="left" text="15% Tip" textAlignment="center" id="iJv-Er-Ash">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <variation key="device=watch42mm" width="155"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" white="0.14999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="device=watch42mm" height="19.5" width="156"/>
+                        </group>
+                        <group width="1" alignment="left" id="7sD-Yp-7DO">
+                            <items>
+                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="9d5-aG-suy">
+                                    <color key="color" red="0.047840458719999999" green="0.5678112716" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </slider>
+                            </items>
+                            <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="9d5-aG-suy"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="9d5-aG-suy"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" alignment="left" id="rzC-TR-LMX">
+                            <items>
+                                <label width="100" alignment="left" text="$0.00" textAlignment="center" id="h85-qg-ywa">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <variation key="device=watch42mm" width="156"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" white="0.14999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="h85-qg-ywa"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="h85-qg-ywa"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" alignment="left" id="NzI-ND-zrO">
+                            <items>
+                                <label width="0.33300000000000002" alignment="left" text="Total" id="guo-gJ-qgF">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                                <label width="0.66600000000000004" alignment="left" text="$0.00" textAlignment="right" id="5yI-Nj-MwZ">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="guo-gJ-qgF"/>
+                                    <exclude reference="5yI-Nj-MwZ"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="guo-gJ-qgF"/>
+                                    <include reference="5yI-Nj-MwZ"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" alignment="left" id="jzX-zL-tIo">
+                            <items>
+                                <label width="1" alignment="left" text="I Person" textAlignment="center" id="aOq-cj-di6">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" white="0.14999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="aOq-cj-di6"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="aOq-cj-di6"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" alignment="left" id="wCt-OZ-Qtv">
+                            <items>
+                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="hAU-tI-n9p">
+                                    <color key="color" red="0.047840458719999999" green="0.5678112716" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </slider>
+                            </items>
+                            <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="hAU-tI-n9p"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="hAU-tI-n9p"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="40" alignment="left" id="cSY-cp-wfE">
+                            <items>
+                                <label width="0.40000000000000002" alignment="left" text="Total Each" id="emI-u1-y8B">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                </label>
+                                <label width="0.59999999999999998" alignment="left" text="$0.00" textAlignment="right" id="5IH-CS-lpy">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                </label>
+                            </items>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="emI-u1-y8B"/>
+                                    <exclude reference="5IH-CS-lpy"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="emI-u1-y8B"/>
+                                    <include reference="5IH-CS-lpy"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="7sD-Yp-7DO"/>
+                            <exclude reference="rzC-TR-LMX"/>
+                            <exclude reference="NzI-ND-zrO"/>
+                            <exclude reference="jzX-zL-tIo"/>
+                            <exclude reference="wCt-OZ-Qtv"/>
+                            <exclude reference="cSY-cp-wfE"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="7sD-Yp-7DO"/>
+                            <include reference="rzC-TR-LMX"/>
+                            <include reference="NzI-ND-zrO"/>
+                            <include reference="jzX-zL-tIo"/>
+                            <include reference="wCt-OZ-Qtv"/>
+                            <include reference="cSY-cp-wfE"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245.84615384615387" y="355.69230769230774"/>
+        </scene>
+    </scenes>
+</document>
